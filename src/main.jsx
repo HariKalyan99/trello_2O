@@ -11,9 +11,9 @@ import TrelloBoardInternal from './components/InternalBoard/TrelloBoardInternal.
 
 
 const router = createBrowserRouter([
-  {path: "/board", element: <App />, children: [
+  {path: "/", element: <App />, children: [
     {
-      path: "/board", element: <TrelloBoardSpace />
+      path: "/", element: <TrelloBoardSpace />
     },
     {
       path: "/board/:boardId", element: <TrelloBoardInternal />

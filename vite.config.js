@@ -6,6 +6,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ['axios'], //optimize the dependencies for axios
   },
-  plugins: [react()],
-  base: "/board"
+  plugins: [react()]
 })
