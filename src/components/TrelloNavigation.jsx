@@ -26,7 +26,7 @@ const TrelloNavigation = ({boardIdPage}) => {
           />
 
         </Navbar.Brand>
-        {boardIdPage && <Link to={"/board"} className="text-decoration-none">
+        {boardIdPage && <Link to={"/"} className="text-decoration-none">
         <GrLinkPrevious className="text-light mr-2 fs-3 backHover"/>
         </Link>}
         {boardListPending || listsPending || deleteListsPending || addListPending || deleteCardPending || addCardPending ? (
