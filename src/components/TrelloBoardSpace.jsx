@@ -119,7 +119,7 @@ const TrelloBoardSpace = () => {
             )}
           </Container>
           <Container
-            className="min-h-auto h-75 d-flex flex-wrap gap-3 justify-content-start align-items-start" // media query!!
+            className="min-h-auto h-75 d-flex flex-wrap gap-3 justify-content-start align-items-start" 
             ref={ref}
           >
             <Card
