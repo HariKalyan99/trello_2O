@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const TrelloNavigation = ({boardIdPage}) => {
   const { boardListPending } = useSelector((state) => state.boards);
-  const {listsPending, deleteListsPending, addListPending, deleteCardPending, addCardPending} = useSelector(state => state.lists)
+  const {listsPending, deleteListsPending,deleteCardPending, addCardPending, addListPending } = useSelector(state => state.lists)
   return (
     <Navbar
       variant="dark"
